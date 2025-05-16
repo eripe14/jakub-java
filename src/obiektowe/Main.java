@@ -7,7 +7,12 @@ public class Main {
     public static void main(String[] args) {
         Car car = new Car();
 
-        System.out.println(car.getRandomNumber());
+        int randomNumber1 = car.getRandomNumber();
+        int randomNumber2 = car.getRandomNumber();
+
+        // ctrl + P pokazuje parametry metody
+        int sum = car.sum(randomNumber1, randomNumber2);
+        System.out.println(sum);
 
     }
 

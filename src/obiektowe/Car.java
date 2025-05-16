@@ -14,6 +14,9 @@ public class Car {
         return random.nextInt(100);
     }
 
-
+    // metody moga miec parametr! lub wiecej niz 1 :(
+    public int sum(int firstNumber, int secondNumber) {
+        return firstNumber + secondNumber;
+    }
 
 }
