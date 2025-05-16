@@ -18,8 +18,6 @@ Zmienne i nazwy metod nazywaj zgodnie z konwencją po angielsku :)
     - pole `List<Gra>` – lista dostępnych gier w sklepie
     - metodę `dodajGre(Gra gra)` – dodaje grę do sklepu
     - metodę `wypiszWszystkieGry()` – wypisuje wszystkie gry
-    - metodę `wyszukajPoGatunku(String gatunek)` – wypisuje gry danego gatunku
-    - metodę `znajdzNajtanszaGre()` – wypisuje tytuł i cenę najtańszej gry
 
 3. **Stwórz klasę `Main`**, w której:
     - za pomocą `Scanner` użytkownik może:
