@@ -23,12 +23,14 @@ public class MainStore {
                     String scanType = scan.nextLine();
                     System.out.println("Dodaj cene");
                     double scanPrice = scan.nextDouble();
+                    // tworzymy zmienna game klasy Game do ktorej przypisujemy inputy
                     Game game = new Game(scanTitle, scanType, scanPrice);
-                    store.addGame(game);
+                    store.addGame(game); // dodajemy game do listy z klasy Store
                     System.out.println("Gra dodana");
                     break;
                 case 2:
                     System.out.println("Oto wszystkie gry:");
+
                     store.writeAllGames();
                     break;
                 case 3:
