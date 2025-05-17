@@ -1,7 +1,7 @@
 package obiektowe;
 
 // deklaracja klasy, musi byc public
-public class Main {
+public class Main_korki {
 
     // uruchamiator w cpp int main () {}
     public static void main(String[] args) {

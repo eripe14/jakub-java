@@ -1,3 +1,5 @@
+package petle_warunki_zmienne;
+
 public class Warunki {
 
     public static void main(String[] args) {
