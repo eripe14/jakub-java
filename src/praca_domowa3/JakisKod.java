@@ -10,12 +10,11 @@ public class JakisKod {
         return operationNumber;
     }
 
-
-
     public int randomComputerNumber(){
         int randomComputerNumber = random.nextInt(100);
         return randomComputerNumber;
     }
+
 
 
 
