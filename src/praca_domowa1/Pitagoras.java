@@ -6,9 +6,7 @@ import java.util.Random;
 public class Pitagoras {
 
         private int getRandomNumber1() {
-
             Random random = new Random();
-
             // next.int metoda z klasy Random ktora losuje.
             return random.nextInt(100);
         }
