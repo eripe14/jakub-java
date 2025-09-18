@@ -13,7 +13,6 @@ public class Store {
     // game stworzylismy w klasie MainStore jako instancje obiektu Game
     public void addGame(Game game) {
         this.gameList.add(game);
-
     }
 
     public void writeAllGames() {
